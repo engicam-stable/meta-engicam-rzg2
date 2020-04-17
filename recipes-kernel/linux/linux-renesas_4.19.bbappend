@@ -1,3 +1,6 @@
 FILESEXTRAPATHS_prepend_poky := "${THISDIR}/files:"
 SRC_URI += "file://0001-add-icore-rzg2e-support.patch"
+SRC_URI += "file://0002-add-edt-ft5x26-driver.patch"
+SRC_URI += "file://0003-fix-usb-and-touchscreen.patch" 
+SRC_URI += "file://0004-changed-cma-e-mmp-memory-value.patch"
 COMPATIBLE_MACHINE = "(ek874|hihope-rzg2m|hihope-rzg2n|icorerz2ge)"
