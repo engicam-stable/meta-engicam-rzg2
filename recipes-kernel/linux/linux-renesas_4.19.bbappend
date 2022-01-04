@@ -8,5 +8,6 @@ SRC_URI += "\
 			file://0003-enable-sgtl5000-clock-from-SOC.patch \
 			file://0004-fix-sdhi1-node.patch \
 			file://0005-fix-bt_regon-pin.patch \
+			file://0006-add-limit-to-sdcard-clock-frequency.patch \
 		"
 
